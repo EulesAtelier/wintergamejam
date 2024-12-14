@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckn0kafxn8fjb"
+path="res://.godot/imported/sock-green.obj-b3fc46836cc86d2a968783b9eb3603ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sock-green.obj-b3fc46836cc86d2a968783b9eb3603ab.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/sock-green.obj"
+dest_files=["res://.godot/imported/sock-green.obj-b3fc46836cc86d2a968783b9eb3603ab.mesh", "res://.godot/imported/sock-green.obj-b3fc46836cc86d2a968783b9eb3603ab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

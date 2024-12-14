@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfmvx6igvoiq8"
+path="res://.godot/imported/train-tender.obj-788cfd7a942ecfe2cb65e9e5a0b70502.mesh"
+
+[deps]
+
+files=["res://.godot/imported/train-tender.obj-788cfd7a942ecfe2cb65e9e5a0b70502.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/train-tender.obj"
+dest_files=["res://.godot/imported/train-tender.obj-788cfd7a942ecfe2cb65e9e5a0b70502.mesh", "res://.godot/imported/train-tender.obj-788cfd7a942ecfe2cb65e9e5a0b70502.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

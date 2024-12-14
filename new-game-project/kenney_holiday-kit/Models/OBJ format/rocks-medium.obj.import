@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dwd0ormqe2lpo"
+path="res://.godot/imported/rocks-medium.obj-c5abbdc9a4b3565ce51ed1485424bb35.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rocks-medium.obj-c5abbdc9a4b3565ce51ed1485424bb35.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/rocks-medium.obj"
+dest_files=["res://.godot/imported/rocks-medium.obj-c5abbdc9a4b3565ce51ed1485424bb35.mesh", "res://.godot/imported/rocks-medium.obj-c5abbdc9a4b3565ce51ed1485424bb35.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

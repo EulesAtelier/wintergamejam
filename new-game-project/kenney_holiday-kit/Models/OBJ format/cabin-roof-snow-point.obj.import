@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwoiq2cvmon6g"
+path="res://.godot/imported/cabin-roof-snow-point.obj-1be7e8a62a24aae4f788d7bc88dd4357.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cabin-roof-snow-point.obj-1be7e8a62a24aae4f788d7bc88dd4357.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-snow-point.obj"
+dest_files=["res://.godot/imported/cabin-roof-snow-point.obj-1be7e8a62a24aae4f788d7bc88dd4357.mesh", "res://.godot/imported/cabin-roof-snow-point.obj-1be7e8a62a24aae4f788d7bc88dd4357.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

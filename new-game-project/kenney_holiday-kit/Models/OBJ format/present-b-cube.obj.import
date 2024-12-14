@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bs5oy0ti4htpo"
+path="res://.godot/imported/present-b-cube.obj-418463a16f940b82a6eda0f2bb91563b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/present-b-cube.obj-418463a16f940b82a6eda0f2bb91563b.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/present-b-cube.obj"
+dest_files=["res://.godot/imported/present-b-cube.obj-418463a16f940b82a6eda0f2bb91563b.mesh", "res://.godot/imported/present-b-cube.obj-418463a16f940b82a6eda0f2bb91563b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

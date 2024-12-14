@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3tllegse38nn"
+path="res://.godot/imported/trainset-rail-detailed-straight.obj-a1578178517f7d18cc228507b2925cfb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/trainset-rail-detailed-straight.obj-a1578178517f7d18cc228507b2925cfb.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/trainset-rail-detailed-straight.obj"
+dest_files=["res://.godot/imported/trainset-rail-detailed-straight.obj-a1578178517f7d18cc228507b2925cfb.mesh", "res://.godot/imported/trainset-rail-detailed-straight.obj-a1578178517f7d18cc228507b2925cfb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

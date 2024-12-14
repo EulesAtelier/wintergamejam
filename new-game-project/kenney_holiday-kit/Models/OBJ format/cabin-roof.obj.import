@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbq2e0a34t3n5"
+path="res://.godot/imported/cabin-roof.obj-8cc469110e536f785723606a37c81533.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cabin-roof.obj-8cc469110e536f785723606a37c81533.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/cabin-roof.obj"
+dest_files=["res://.godot/imported/cabin-roof.obj-8cc469110e536f785723606a37c81533.mesh", "res://.godot/imported/cabin-roof.obj-8cc469110e536f785723606a37c81533.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

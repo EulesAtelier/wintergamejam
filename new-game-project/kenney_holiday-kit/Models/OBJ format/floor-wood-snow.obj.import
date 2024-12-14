@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ll087p1daa0k"
+path="res://.godot/imported/floor-wood-snow.obj-16580be3640ef67821e3c252471b5c9e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor-wood-snow.obj-16580be3640ef67821e3c252471b5c9e.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/floor-wood-snow.obj"
+dest_files=["res://.godot/imported/floor-wood-snow.obj-16580be3640ef67821e3c252471b5c9e.mesh", "res://.godot/imported/floor-wood-snow.obj-16580be3640ef67821e3c252471b5c9e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

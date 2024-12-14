@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmhjai42d1wqq"
+path="res://.godot/imported/bench-short.obj-f48c3dce4adf7fa23db3bd69b9f94c8c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bench-short.obj-f48c3dce4adf7fa23db3bd69b9f94c8c.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/bench-short.obj"
+dest_files=["res://.godot/imported/bench-short.obj-f48c3dce4adf7fa23db3bd69b9f94c8c.mesh", "res://.godot/imported/bench-short.obj-f48c3dce4adf7fa23db3bd69b9f94c8c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

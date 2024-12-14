@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqpeskdimm5vb"
+path="res://.godot/imported/tree.obj-0f3d797a3c393f8a83ea7732b0234096.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree.obj-0f3d797a3c393f8a83ea7732b0234096.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/tree.obj"
+dest_files=["res://.godot/imported/tree.obj-0f3d797a3c393f8a83ea7732b0234096.mesh", "res://.godot/imported/tree.obj-0f3d797a3c393f8a83ea7732b0234096.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

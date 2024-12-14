@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cad51ue7nwcxn"
+path="res://.godot/imported/cabin-overhang-door-rotate.obj-5a096e8060049d81226fb8b636974e5f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cabin-overhang-door-rotate.obj-5a096e8060049d81226fb8b636974e5f.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/cabin-overhang-door-rotate.obj"
+dest_files=["res://.godot/imported/cabin-overhang-door-rotate.obj-5a096e8060049d81226fb8b636974e5f.mesh", "res://.godot/imported/cabin-overhang-door-rotate.obj-5a096e8060049d81226fb8b636974e5f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jf3cwkduojxm"
+path="res://.godot/imported/cabin-wall-roof-center.obj-de21b38f7ad43c91b54b2e38e7e43286.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cabin-wall-roof-center.obj-de21b38f7ad43c91b54b2e38e7e43286.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/cabin-wall-roof-center.obj"
+dest_files=["res://.godot/imported/cabin-wall-roof-center.obj-de21b38f7ad43c91b54b2e38e7e43286.mesh", "res://.godot/imported/cabin-wall-roof-center.obj-de21b38f7ad43c91b54b2e38e7e43286.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

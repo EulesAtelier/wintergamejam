@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bwh4dscmgnhko"
+path="res://.godot/imported/click-b.ogg-1fe14916da2c0d87e86cab70091a4eae.oggvorbisstr"
+
+[deps]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/kenney_ui-pack/Sounds/click-b.ogg"
+dest_files=["res://.godot/imported/click-b.ogg-1fe14916da2c0d87e86cab70091a4eae.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

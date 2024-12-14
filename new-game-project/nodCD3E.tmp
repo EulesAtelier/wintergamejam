@@ -1,0 +1,62 @@
+[gd_scene load_steps=8 format=3 uid="uid://dm4k0dseoiant"]
+
+[ext_resource type="Script" path="res://movement.gd" id="1_ej4gb"]
+[ext_resource type="ArrayMesh" uid="uid://cusder0yi22sc" path="res://kenney_holiday-kit/Models/OBJ format/snowman.obj" id="1_spkef"]
+[ext_resource type="Texture2D" uid="uid://c208u6x44sx0q" path="res://kenney_ui-pack/Vector/Grey/button_rectangle_gradient.svg" id="3_ytxot"]
+[ext_resource type="Script" path="res://game_manager.gd" id="4_2kaa6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfuqo"]
+albedo_color = Color(0.29, 0.29, 0.29, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_lmcxo"]
+
+[sub_resource type="Curve" id="Curve_a8byv"]
+_data = [Vector2(0, 0.5), 0.0, 0.0, 0, 1, Vector2(1, 0.5), 0.0, 0.0, 1, 0]
+point_count = 2
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(9.775, 0, 0, 0, 9.775, 0, 0, 0, 9.775, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_mfuqo")
+mesh = SubResource("PlaneMesh_lmcxo")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.338738, 0.940881, 0, -0.940881, 0.338738, 0, 5, 0)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+physics_interpolation_mode = 1
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.87097, 0, -0.128719)
+script = ExtResource("1_ej4gb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+
+[node name="Snowman" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = ExtResource("1_spkef")
+skeleton = NodePath("../..")
+
+[node name="TrailEmitter" type="TrailEmitter" parent="CharacterBody3D"]
+curve = SubResource("Curve_a8byv")
+geometry_nodepath = NodePath("../Snowman")
+size = 0.5
+update_interval = 0.01
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0616654, 0)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Game Manager" type="Node" parent="Control"]
+script = ExtResource("4_2kaa6")
+
+[node name="healthammo" type="TextureProgressBar" parent="Control/Game Manager"]
+offset_right = 192.0
+offset_bottom = 64.0
+texture_progress = ExtResource("3_ytxot")
+tint_under = Color(0.454902, 1, 1, 1)
+tint_over = Color(0.282353, 1, 1, 1)
+tint_progress = Color(0.857294, 0.979756, 0.984589, 1)

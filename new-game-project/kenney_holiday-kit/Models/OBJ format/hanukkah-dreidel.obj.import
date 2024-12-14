@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckkf0c04scso1"
+path="res://.godot/imported/hanukkah-dreidel.obj-48b1ac3991a9cba71e7c5327578b96e5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hanukkah-dreidel.obj-48b1ac3991a9cba71e7c5327578b96e5.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/hanukkah-dreidel.obj"
+dest_files=["res://.godot/imported/hanukkah-dreidel.obj-48b1ac3991a9cba71e7c5327578b96e5.mesh", "res://.godot/imported/hanukkah-dreidel.obj-48b1ac3991a9cba71e7c5327578b96e5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bguce60dspn8s"
+path="res://.godot/imported/present-b-rectangle.obj-5434a4e4c59d74ada260447cefc32c4f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/present-b-rectangle.obj-5434a4e4c59d74ada260447cefc32c4f.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/present-b-rectangle.obj"
+dest_files=["res://.godot/imported/present-b-rectangle.obj-5434a4e4c59d74ada260447cefc32c4f.mesh", "res://.godot/imported/present-b-rectangle.obj-5434a4e4c59d74ada260447cefc32c4f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

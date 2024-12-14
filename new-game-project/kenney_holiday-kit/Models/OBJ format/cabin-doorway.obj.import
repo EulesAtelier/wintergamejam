@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgrpkpgchvjqn"
+path="res://.godot/imported/cabin-doorway.obj-8ef2aa9e33fdde3f01353c5b06e4d4bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cabin-doorway.obj-8ef2aa9e33fdde3f01353c5b06e4d4bb.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/cabin-doorway.obj"
+dest_files=["res://.godot/imported/cabin-doorway.obj-8ef2aa9e33fdde3f01353c5b06e4d4bb.mesh", "res://.godot/imported/cabin-doorway.obj-8ef2aa9e33fdde3f01353c5b06e4d4bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

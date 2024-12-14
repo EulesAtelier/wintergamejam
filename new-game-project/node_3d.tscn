@@ -1,0 +1,291 @@
+[gd_scene load_steps=47 format=3 uid="uid://dm4k0dseoiant"]
+
+[ext_resource type="Script" path="res://movement.gd" id="1_ej4gb"]
+[ext_resource type="Texture2D" uid="uid://hsgq4fq78g5x" path="res://snow.png" id="1_ey2nx"]
+[ext_resource type="ArrayMesh" uid="uid://cusder0yi22sc" path="res://kenney_holiday-kit/Models/OBJ format/snowman.obj" id="1_spkef"]
+[ext_resource type="Texture2D" uid="uid://c208u6x44sx0q" path="res://kenney_ui-pack/Vector/Grey/button_rectangle_gradient.svg" id="3_ytxot"]
+[ext_resource type="Script" path="res://game_manager.gd" id="4_2kaa6"]
+[ext_resource type="ArrayMesh" uid="uid://bcjyte8gf2i7" path="res://kenney_holiday-kit/Models/OBJ format/cabin-door-rotate.obj" id="5_py4tl"]
+[ext_resource type="ArrayMesh" uid="uid://brt42bfahlef2" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-chimney.obj" id="6_cqs2r"]
+[ext_resource type="ArrayMesh" uid="uid://b3mdj2wlkg1o0" path="res://kenney_holiday-kit/Models/OBJ format/cabin-corner-bottom.obj" id="6_sfp3e"]
+[ext_resource type="ArrayMesh" uid="uid://dspsset6lc1ki" path="res://kenney_holiday-kit/Models/OBJ format/cabin-corner-logs.obj" id="7_k4sfe"]
+[ext_resource type="ArrayMesh" uid="uid://bha0ikyrwje7r" path="res://kenney_holiday-kit/Models/OBJ format/lantern.obj" id="7_q4tok"]
+[ext_resource type="ArrayMesh" uid="uid://ysjohthydf61" path="res://kenney_holiday-kit/Models/OBJ format/cabin-corner.obj" id="8_qr2jd"]
+[ext_resource type="ArrayMesh" uid="uid://cxn2w3sruhfht" path="res://kenney_holiday-kit/Models/OBJ format/nutcracker.obj" id="8_rcbvv"]
+[ext_resource type="ArrayMesh" uid="uid://brpodg3bhtknw" path="res://kenney_holiday-kit/Models/OBJ format/cabin-doorway-center.obj" id="10_onyrr"]
+[ext_resource type="ArrayMesh" uid="uid://ddtka6ahavyv6" path="res://kenney_holiday-kit/Models/OBJ format/cabin-doorway-left.obj" id="11_3n26r"]
+[ext_resource type="ArrayMesh" uid="uid://74o70m5shrid" path="res://kenney_holiday-kit/Models/OBJ format/cabin-doorway-right.obj" id="12_ynyq5"]
+[ext_resource type="ArrayMesh" uid="uid://cgrpkpgchvjqn" path="res://kenney_holiday-kit/Models/OBJ format/cabin-doorway.obj" id="13_qwppn"]
+[ext_resource type="ArrayMesh" uid="uid://c3kjatrj55vl1" path="res://kenney_holiday-kit/Models/OBJ format/cabin-fence.obj" id="14_265o7"]
+[ext_resource type="ArrayMesh" uid="uid://cad51ue7nwcxn" path="res://kenney_holiday-kit/Models/OBJ format/cabin-overhang-door-rotate.obj" id="15_l0pw5"]
+[ext_resource type="ArrayMesh" uid="uid://dixsjmh6jgqoq" path="res://kenney_holiday-kit/Models/OBJ format/cabin-overhang-doorway.obj" id="16_rmy1b"]
+[ext_resource type="ArrayMesh" uid="uid://1gj0kobty704" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-corner.obj" id="18_5u1va"]
+[ext_resource type="ArrayMesh" uid="uid://csux57dt7afgn" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-dormer.obj" id="19_g3bos"]
+[ext_resource type="ArrayMesh" uid="uid://dmk2gm2bpvpdy" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-point.obj" id="20_beolu"]
+[ext_resource type="ArrayMesh" uid="uid://de54paepx54on" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-snow-chimney.obj" id="21_uk8e4"]
+[ext_resource type="ArrayMesh" uid="uid://bi3vqkohuxgaf" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-snow-corner.obj" id="22_ta6jx"]
+[ext_resource type="ArrayMesh" uid="uid://bftncuvtnupm6" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-snow-dormer.obj" id="23_ykuok"]
+[ext_resource type="ArrayMesh" uid="uid://cwoiq2cvmon6g" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-snow-point.obj" id="24_grqgd"]
+[ext_resource type="ArrayMesh" uid="uid://t3g745gfv01v" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-snow.obj" id="25_yinox"]
+[ext_resource type="ArrayMesh" uid="uid://f6poy01ugdmk" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof-top.obj" id="26_i3q1d"]
+[ext_resource type="ArrayMesh" uid="uid://cbq2e0a34t3n5" path="res://kenney_holiday-kit/Models/OBJ format/cabin-roof.obj" id="27_jf0my"]
+[ext_resource type="ArrayMesh" uid="uid://jsmpmqxtvqqf" path="res://kenney_holiday-kit/Models/OBJ format/cabin-wall-low.obj" id="28_a37dl"]
+[ext_resource type="ArrayMesh" uid="uid://jf3cwkduojxm" path="res://kenney_holiday-kit/Models/OBJ format/cabin-wall-roof-center.obj" id="29_acqc3"]
+[ext_resource type="ArrayMesh" uid="uid://ckw1axi3vvbxm" path="res://kenney_holiday-kit/Models/OBJ format/cabin-wall-roof.obj" id="30_xxkw0"]
+[ext_resource type="ArrayMesh" uid="uid://c7pioykaock2w" path="res://kenney_holiday-kit/Models/OBJ format/cabin-wall-wreath.obj" id="31_3muak"]
+[ext_resource type="ArrayMesh" uid="uid://du0kq6xmnxhtg" path="res://kenney_holiday-kit/Models/OBJ format/cabin-wall.obj" id="32_sedc1"]
+[ext_resource type="ArrayMesh" uid="uid://ct2ua4esqax3t" path="res://kenney_holiday-kit/Models/OBJ format/cabin-window-a.obj" id="33_yks66"]
+[ext_resource type="ArrayMesh" uid="uid://cqsy8gaw325fu" path="res://kenney_holiday-kit/Models/OBJ format/cabin-window-b.obj" id="34_wyjvw"]
+[ext_resource type="ArrayMesh" uid="uid://cs0d4rk7i817s" path="res://kenney_holiday-kit/Models/OBJ format/cabin-window-c.obj" id="35_iinvh"]
+[ext_resource type="ArrayMesh" uid="uid://b4r3uuj2l2ei5" path="res://kenney_holiday-kit/Models/OBJ format/cabin-window-large.obj" id="36_wxldl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfuqo"]
+albedo_color = Color(0.66, 0.66, 0.66, 1)
+albedo_texture = ExtResource("1_ey2nx")
+uv1_scale = Vector3(2, 2, 2)
+uv2_scale = Vector3(2, 2, 2)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_lmcxo"]
+
+[sub_resource type="Curve" id="Curve_a8byv"]
+_data = [Vector2(0, 0.5), 0.0, 0.0, 0, 1, Vector2(1, 0.5), 0.0, 0.0, 1, 0]
+point_count = 2
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tknu0"]
+radius = 0.438199
+height = 1.08822
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_e33gd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_svoyp"]
+size = Vector3(1.50073, 1.83606, 1.3891)
+
+[sub_resource type="Skin" id="Skin_8pd7p"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vmdgi"]
+radius = 0.324206
+height = 1.24438
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(9.775, 0, 0, 0, 9.775, 0, 0, 0, 9.775, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_mfuqo")
+mesh = SubResource("PlaneMesh_lmcxo")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.421036, 0.907044, 0, -0.907044, 0.421036, 1.87097, 4.33699, 1.38971)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+physics_interpolation_mode = 1
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.87097, 0, -0.128719)
+script = ExtResource("1_ej4gb")
+
+[node name="Snowman" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = ExtResource("1_spkef")
+skeleton = NodePath("../..")
+
+[node name="TrailEmitter" type="TrailEmitter" parent="CharacterBody3D"]
+curve = SubResource("Curve_a8byv")
+geometry_nodepath = NodePath("../Snowman")
+size = 0.5
+update_interval = 0.01
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0616654, 0)
+
+[node name="RemoteTransform3D" type="RemoteTransform3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 0.421036, 0.907044, 0, -0.907044, 0.421036, -2.38419e-07, 4.33699, 1.51843)
+remote_path = NodePath("../../Camera3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.558412, 0)
+shape = SubResource("CapsuleShape3D_tknu0")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Game Manager" type="Node" parent="Control"]
+script = ExtResource("4_2kaa6")
+
+[node name="healthammo" type="TextureProgressBar" parent="Control"]
+offset_right = 192.0
+offset_bottom = 64.0
+value = 50.0
+texture_progress = ExtResource("3_ytxot")
+tint_under = Color(0.454902, 1, 1, 1)
+tint_over = Color(0.282353, 1, 1, 1)
+tint_progress = Color(0.857294, 0.979756, 0.984589, 1)
+
+[node name="Cabin-corner-bottom" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.74645, 0, -1.91033)
+mesh = ExtResource("6_sfp3e")
+
+[node name="Cabin-corner-logs" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.81654, 0, -2.40483)
+mesh = ExtResource("7_k4sfe")
+
+[node name="Cabin-corner" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.23522, 0, -1.54344)
+mesh = ExtResource("8_qr2jd")
+
+[node name="Cabin-door-rotate" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.21937, 0, -1.82327)
+mesh = ExtResource("5_py4tl")
+
+[node name="Cabin-doorway-center" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.56201, 0, -1.32114)
+mesh = ExtResource("10_onyrr")
+
+[node name="Cabin-doorway-left" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5091, -2.12568, -3.13267)
+mesh = ExtResource("11_3n26r")
+
+[node name="Cabin-doorway-right" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.3804, 0, -0.8083)
+mesh = ExtResource("12_ynyq5")
+
+[node name="Cabin-doorway" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.16083, 0, -0.0252659)
+mesh = ExtResource("13_qwppn")
+
+[node name="Cabin-fence" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1449, 0, -3.13267)
+mesh = ExtResource("14_265o7")
+
+[node name="Cabin-overhang-door-rotate" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.3461, -1.67619, -3.13267)
+mesh = ExtResource("15_l0pw5")
+
+[node name="Cabin-overhang-doorway" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.9982, 0, -6.19116)
+mesh = ExtResource("16_rmy1b")
+
+[node name="Cabin-roof-chimney" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3921, 1.42172, -3.13267)
+mesh = ExtResource("6_cqs2r")
+
+[node name="Cabin-roof-corner" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.892, 0, -9.15886)
+mesh = ExtResource("18_5u1va")
+
+[node name="Cabin-roof-dormer" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.099, 0, -6.86974)
+mesh = ExtResource("19_g3bos")
+
+[node name="Cabin-roof-point" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.6199, 0.737928, -3.13267)
+mesh = ExtResource("20_beolu")
+
+[node name="Cabin-roof-snow-chimney" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.3118, 0, -2.79276)
+mesh = ExtResource("21_uk8e4")
+
+[node name="Cabin-roof-snow-corner" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.37141, 3.35514, -3.13267)
+mesh = ExtResource("22_ta6jx")
+
+[node name="Cabin-roof-snow-dormer" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.1052, 0, -3.13267)
+mesh = ExtResource("23_ykuok")
+
+[node name="Cabin-roof-snow-point" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.02455, 1.13486, -3.13267)
+mesh = ExtResource("24_grqgd")
+
+[node name="Cabin-roof-snow" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.5803, -3.13545, -3.13267)
+mesh = ExtResource("25_yinox")
+
+[node name="Cabin-roof-top" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.37141, 0, -3.13267)
+mesh = ExtResource("26_i3q1d")
+
+[node name="Cabin-roof" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.9992, 0, -0.600446)
+mesh = ExtResource("27_jf0my")
+
+[node name="Cabin-wall-low" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4394, 0, -2.29919)
+mesh = ExtResource("28_a37dl")
+
+[node name="Cabin-wall-roof-center" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.3614, 0, 1.01783)
+mesh = ExtResource("29_acqc3")
+
+[node name="Cabin-wall-roof" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.1268, 0, -8.92918)
+mesh = ExtResource("30_xxkw0")
+
+[node name="Cabin-wall-wreath" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.619, 0, -3.13267)
+mesh = ExtResource("31_3muak")
+
+[node name="Cabin-wall" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.0144, 0, 0.563663)
+mesh = ExtResource("32_sedc1")
+
+[node name="Cabin-window-a" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.6885, 0, -6.88166)
+mesh = ExtResource("33_yks66")
+
+[node name="Cabin-window-b" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8547, 0, 1.47003)
+mesh = ExtResource("34_wyjvw")
+
+[node name="Cabin-window-c" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.8002, 0, -3.13267)
+mesh = ExtResource("35_iinvh")
+
+[node name="Cabin-window-large" type="MeshInstance3D" parent="Control"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2155, 0, -3.13267)
+mesh = ExtResource("36_wxldl")
+
+[node name="Cabin-door-rotate" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.51635, 0, -2.39175)
+mesh = ExtResource("5_py4tl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cabin-door-rotate"]
+
+[node name="Cabin-roof-chimney" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.32115, 0, -2.19593)
+mesh = ExtResource("6_cqs2r")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Cabin-roof-chimney"]
+disable_mode = 1
+physics_material_override = SubResource("PhysicsMaterial_e33gd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cabin-roof-chimney/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.121948, 0.41803, -0.0267029)
+shape = SubResource("BoxShape3D_svoyp")
+
+[node name="Lantern" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.26899, 0, -2.26197)
+mesh = ExtResource("7_q4tok")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lantern"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.45926, 0)
+light_color = Color(1, 0.8045, 0.31, 1)
+
+[node name="Lantern" type="MeshInstance3D" parent="Lantern"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.53077, 0, 2.46386)
+mesh = ExtResource("7_q4tok")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lantern/Lantern"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.45926, 0)
+light_color = Color(1, 0.8045, 0.31, 1)
+
+[node name="CharacterBody3D2" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.80451, -0.00783151, -4.1818)
+
+[node name="Nutcracker" type="MeshInstance3D" parent="CharacterBody3D2"]
+mesh = ExtResource("8_rcbvv")
+skin = SubResource("Skin_8pd7p")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.592476, 0)
+shape = SubResource("CapsuleShape3D_vmdgi")

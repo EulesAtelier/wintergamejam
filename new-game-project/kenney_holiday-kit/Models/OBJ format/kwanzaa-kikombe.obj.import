@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8i240nvcolqt"
+path="res://.godot/imported/kwanzaa-kikombe.obj-1b62f70f2ac6fab8c119d03518e2a5de.mesh"
+
+[deps]
+
+files=["res://.godot/imported/kwanzaa-kikombe.obj-1b62f70f2ac6fab8c119d03518e2a5de.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/kwanzaa-kikombe.obj"
+dest_files=["res://.godot/imported/kwanzaa-kikombe.obj-1b62f70f2ac6fab8c119d03518e2a5de.mesh", "res://.godot/imported/kwanzaa-kikombe.obj-1b62f70f2ac6fab8c119d03518e2a5de.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

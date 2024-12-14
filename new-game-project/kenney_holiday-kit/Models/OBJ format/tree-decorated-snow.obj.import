@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cuf7ekf6qp780"
+path="res://.godot/imported/tree-decorated-snow.obj-69f4541ecc18d2ee6456bae789eeaefb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree-decorated-snow.obj-69f4541ecc18d2ee6456bae789eeaefb.mesh"]
+
+source_file="res://kenney_holiday-kit/Models/OBJ format/tree-decorated-snow.obj"
+dest_files=["res://.godot/imported/tree-decorated-snow.obj-69f4541ecc18d2ee6456bae789eeaefb.mesh", "res://.godot/imported/tree-decorated-snow.obj-69f4541ecc18d2ee6456bae789eeaefb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
