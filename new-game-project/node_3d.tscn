@@ -112,6 +112,7 @@ offset_bottom = 40.0
 script = ExtResource("4_2kaa6")
 
 [node name="healthammo" type="TextureProgressBar" parent="Control"]
+layout_mode = 0
 offset_right = 192.0
 offset_bottom = 64.0
 value = 50.0
